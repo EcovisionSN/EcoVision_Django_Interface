@@ -23,7 +23,7 @@ Une fois l'archive téléchargée, procédez comme suit pour configurer l'interf
 
 - `@msv.reg`: Exécutez ce fichier une seule fois. Son exécution permet à Windows de supporter les longs 'PATH' (chemins) et d'outrepasser la limite par défaut.
 
-- `@msv.bat`: Pour démarrer le serveur local et accéder à l'interface, il vous suffit de double-cliquer sur ce fichier. Notez que l'exécution de ces fichiers peut générer un avertissement de sécurité de la part de Windows, mais il n'y a aucun risque. Une fois le fichier `@msv.bat` exécuté, les bibliothèques nécessaires au modèle seront automatiquement téléchargées. Le processus prend généralement 5 minutes, mais cela peut être plus long en cas de connexion Internet lente. Une fois le serveur démarré, un lien local ressemblant à `localhost:127.0.0.1:8000` s'affichera.
+- `@msv.bat`: Pour démarrer le serveur local et accéder à l'interface, il vous suffit de double-cliquer sur ce fichier. Notez que l'exécution de ces fichiers peut générer un avertissement de sécurité de la part de Windows, mais il n'y a aucun risque. Une fois le fichier `@msv.bat` exécuté, les bibliothèques nécessaires au modèle seront automatiquement téléchargées. Le processus prend généralement 5 minutes, mais cela peut être plus long en cas de connexion Internet lente. Une fois le serveur démarré, un lien local ressemblant à `http://127.0.0.1:8000` s'affichera.
 <details>
 <summary style="color: blue; font-weight: bold">Gérer l'avertissement</summary>
 Vous allez voir un avertissement ressemblant à cela la première fois que vous essayerez de lancer l'interface :
@@ -43,7 +43,7 @@ Cliquez sur **More info** et ensuite cliquez sur **exécuter quand même**. Apr�
 
 Pour accéder à l'interface, suivez ces étapes :
 
-1. Copiez le lien `127.0.0.1:8000` dans la barre d'adresse de votre navigateur.
+1. Copiez le lien `http://127.0.0.1:8000` dans la barre d'adresse de votre navigateur.
 2. Ajoutez `/index` à la fin du lien, puis appuyez sur Entrée.
 
 ## Aperçu de l'Interface
