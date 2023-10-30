@@ -23,7 +23,7 @@ Une fois l'archive téléchargée, procédez comme suit pour configurer l'interf
 
 - `@msv.reg`: Exécutez ce fichier une seule fois. Son exécution permet à Windows de supporter les longs 'PATH' (chemins) et d'outrepasser la limite par défaut.
 
-- `@msv.bat`: Pour démarrer le serveur local et accéder à l'interface, il vous suffit de double-cliquer sur ce fichier. Notez que l'exécution de ces fichiers peut générer un avertissement de sécurité de la part de Windows, mais il n'y a aucun risque. Une fois le fichier `@msv.bat` exécuté, les bibliothèques nécessaires au modèle seront automatiquement téléchargées. Le processus prend généralement 5 minutes, mais cela peut être plus long en cas de connexion Internet lente. Une fois le serveur démarré, un lien local ressemblant à `localhost:127.0.0.1:####` s'affichera (les `#` représentent le numéro de port, qui peut varier d'une exécution à l'autre).
+- `@msv.bat`: Pour démarrer le serveur local et accéder à l'interface, il vous suffit de double-cliquer sur ce fichier. Notez que l'exécution de ces fichiers peut générer un avertissement de sécurité de la part de Windows, mais il n'y a aucun risque. Une fois le fichier `@msv.bat` exécuté, les bibliothèques nécessaires au modèle seront automatiquement téléchargées. Le processus prend généralement 5 minutes, mais cela peut être plus long en cas de connexion Internet lente. Une fois le serveur démarré, un lien local ressemblant à `localhost:127.0.0.1:8000` s'affichera.
 <details>
 <summary style="color: blue; font-weight: bold">Gérer l'avertissement</summary>
 Vous allez voir un avertissement ressemblant à cela la première fois que vous essayerez de lancer l'interface :
@@ -43,7 +43,7 @@ Cliquez sur **More info** et ensuite cliquez sur **exécuter quand même**. Apr�
 
 Pour accéder à l'interface, suivez ces étapes :
 
-1. Copiez le lien `127.0.0.1` dans la barre d'adresse de votre navigateur.
+1. Copiez le lien `127.0.0.1:8000` dans la barre d'adresse de votre navigateur.
 2. Ajoutez `/index` à la fin du lien, puis appuyez sur Entrée.
 
 ## Aperçu de l'Interface
@@ -57,7 +57,7 @@ Une fois connecté, vous verrez une interface similaire à l'image ci-dessous :
 
 2. Vous serez redirigé vers une seconde page où vous devrez télécharger une image au format PNG de 512x512 pixels, représentant une zone forestière vue par satellite ou drone/aérien. Cela est crucial, car le non-respect des conditions, telles que la dimension de l'image ou le format, peut entraîner des erreurs ou un dysfonctionnement du modèle.
 
-3. Une fois l'image chargée, cliquez sur le bouton "Upload" et attendez environ 15 secondes.
+3. Une fois l'image chargée, cliquez sur le bouton "Upload" et attendez quelques secondes.
 
 4. Vous serez dirigé vers une page affichant les prédictions du modèle.
 ![Predictions Page](images/capture_5.png)
