@@ -2,11 +2,13 @@
 
 Bienvenue à l'interface de visualisation des prédictions de notre modèle d'IA pour le Challenge PAS : Forest Innovation. Cette interface, développée avec Django, vous permet de visualiser facilement les résultats de notre modèle. Suivez ces instructions pour télécharger, configurer et utiliser l'interface.
 
+>######NB: Vous devez avoir python 3.11 installé sur votre ordinateur Windows pour pouvoir faire fonctionner l'interface. Si vous ne l'avez  pas sur votre machine, cliquez simplement [ici](https://www.python.org/ftp/python/3.11.6/python-3.11.6-amd64.exe) et suivez les étapes d'installations.
+
 ## Téléchargement de l'Interface
 
 Pour obtenir l'interface, suivez ces étapes simples :
 
-1. Ouvrir ce [lien](https://www.dropbox.com/scl/fi/msazmfv73z3xac1qz5qj4/EcoVisionSN.zip?rlkey=wetwv810xh39xo0puklqi5kia&dl=0) avec votre navigateur vous redirigera vers la plateforme d'hébergement.
+1. Ouvrir ce [lien](https://www.dropbox.com/scl/fi/h84n8nkcx9kpu16q0d042/EcoVisionSN.zip?rlkey=b1r06cbv12im2n549ur8tb82e&dl=0) avec votre navigateur vous redirigera vers la plateforme d'hébergement.
 2. Téléchargez l'archive au format ZIP contenant l'application.
 
 ## Configuration de l'Interface
@@ -17,11 +19,24 @@ Une fois l'archive téléchargée, procédez comme suit pour configurer l'interf
 2. Ouvrez le dossier résultant.
 
 À l'intérieur de ce dossier, vous trouverez deux fichiers importants :
-![fichiers importants](images/capture_1.png)
+![fichiers importants](images/capture_8.png)
 
-- `@msv.reg`: Exécutez ce fichier une seule fois. Il configure des paramètres spécifiques nécessaires au bon fonctionnement de l'interface.
+- `@msv.reg`: Exécutez ce fichier une seule fois. Son exécution permet à Windows de supporter les longs 'PATH' (chemins) et d'outrepasser la limite par défaut.
 
 - `@msv.bat`: Pour démarrer le serveur local et accéder à l'interface, il vous suffit de double-cliquer sur ce fichier. Notez que l'exécution de ces fichiers peut générer un avertissement de sécurité de la part de Windows, mais il n'y a aucun risque. Une fois le fichier `@msv.bat` exécuté, les bibliothèques nécessaires au modèle seront automatiquement téléchargées. Le processus prend généralement 5 minutes, mais cela peut être plus long en cas de connexion Internet lente. Une fois le serveur démarré, un lien local ressemblant à `localhost:127.0.0.1:####` s'affichera (les `#` représentent le numéro de port, qui peut varier d'une exécution à l'autre).
+<details>
+<summary style="color: blue; font-weight: bold">Gérer l'avertissement</summary>
+Vous allez voir un avertissement ressemblant à cela la première fois que vous essayerez de lancer l'interface :
+
+![test](images/capture_7.jpeg)
+
+<br>
+
+Cliquez sur **More info** et ensuite cliquez sur **exécuter quand même**. Après ça l'interface devrait démarrer via le CMD windows et vous n'aurez plus cet avertissement.
+
+</details>
+<br>
+
 ![demarrage cmd](images/capture_6.png)
 
 ## Visualisation de l'Interface
