@@ -4,6 +4,8 @@ Bienvenue à l'interface de visualisation des prédictions de notre modèle d'IA
 
 >###### NB: Vous devez avoir python 3.11 installé sur votre ordinateur Windows pour pouvoir faire fonctionner l'interface. Si vous ne l'avez  pas sur votre machine, cliquez simplement [ici](https://www.python.org/ftp/python/3.11.6/python-3.11.6-amd64.exe) et suivez les étapes d'installations.
 
+>##### NB 2: Le dossier test contient des images que vous pouvez utiliser pour tester le modèle
+
 ## Téléchargement de l'Interface
 
 Pour obtenir l'interface, suivez ces étapes simples :
